@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ================================================ NOTE ================================================= -->
+<!-- ==================DO NOT TOUCH this file, otherwise DiskProfile UnitTest will fail===================== -->
+<!-- ==================DO NOT TOUCH this file, otherwise DiskProfile UnitTest will fail===================== -->
+<!-- ==================DO NOT TOUCH this file, otherwise DiskProfile UnitTest will fail===================== -->
+<!-- ================================================ NOTE ================================================= -->
+<diskprofile>
+    <productfamily name="YeeStor">
+        <product name="YeeSAN">
+            <!-- ================================ SSD START ================================================= -->
+            <device ddmclass="1" rpm="15000" size="1280000" raid="0" width="1" cap="1280000">
+                <perf readratio="100" iosize="128" bandwidth="1549000000" iops="12104000"/>
+                <perf readratio="100" iosize="64" bandwidth="1299000000" iops="23200000"/>
+                <perf readratio="100" iosize="32" bandwidth="1248000000" iops="39000000"/>
+                <perf readratio="100" iosize="8" bandwidth="384000000" iops="480000000"/>
+                <perf readratio="100" iosize="4" bandwidth="192000000" iops="48000000"/>
+                <perf readratio="50" iosize="128" bandwidth="420350000" iops="3284000"/>
+                <perf readratio="50" iosize="64" bandwidth="369600000" iops="6600000"/>
+                <perf readratio="50" iosize="32" bandwidth="361250000" iops="11289000"/>
+                <perf readratio="50" iosize="8" bandwidth="173420000" iops="21677000"/>
+                <perf readratio="50" iosize="4" bandwidth="100000000" iops="25000000"/>
+                <perf readratio="0" iosize="128" bandwidth="243200000" iops="1900000"/>
+                <perf readratio="0" iosize="64" bandwidth="212800000" iops="3800000"/>
+                <perf readratio="0" iosize="32" bandwidth="211200000" iops="6600000"/>
+                <perf readratio="0" iosize="8" bandwidth="112000000" iops="14000000"/>
+                <perf readratio="0" iosize="4" bandwidth="62800000" iops="15700000"/>
+            </device>
+            <!-- ================================ SSD END =================================================== -->
+            <!-- ================================ ENT START ================================================= -->
+            <device ddmclass="2" rpm="10000" size="1280000" raid="0" width="1" cap="1280000">
+                <perf readratio="100" iosize="128" bandwidth="1549000000" iops="12104000"/>
+                <perf readratio="100" iosize="64" bandwidth="1299000000" iops="23200000"/>
+                <perf readratio="100" iosize="32" bandwidth="1248000000" iops="39000000"/>
+                <perf readratio="100" iosize="8" bandwidth="384000000" iops="48000000"/>
+                <perf readratio="100" iosize="4" bandwidth="192000000" iops="48000000"/>
+                <perf readratio="50" iosize="128" bandwidth="420350000" iops="3284000"/>
+                <perf readratio="50" iosize="64" bandwidth="369600000" iops="6600000"/>
+                <perf readratio="50" iosize="32" bandwidth="361250000" iops="11289000"/>
+                <perf readratio="50" iosize="8" bandwidth="173420000" iops="21677000"/>
+                <perf readratio="50" iosize="4" bandwidth="100000000" iops="25000000"/>
+                <perf readratio="0" iosize="128" bandwidth="243200000" iops="1900000"/>
+                <perf readratio="0" iosize="64" bandwidth="212800000" iops="3800000"/>
+                <perf readratio="0" iosize="32" bandwidth="211200000" iops="6600000"/>
+                <perf readratio="0" iosize="8" bandwidth="112000000" iops="14000000"/>
+                <perf readratio="0" iosize="4" bandwidth="62800000" iops="15700000"/>
+            </device>
+            <!-- ================================ ENT END ==================================================== -->
+            <!-- ================================ SATA START ================================================= -->
+            <device ddmclass="3" rpm="7500" size="1280000" raid="0" width="1" cap="128000">
+                <perf readratio="100" iosize="128" bandwidth="154900000" iops="1210400"/>
+                <perf readratio="100" iosize="64" bandwidth="129900000" iops="2320000"/>
+                <perf readratio="100" iosize="32" bandwidth="124800000" iops="3900000"/>
+                <perf readratio="100" iosize="8" bandwidth="38400000" iops="4800000"/>
+                <perf readratio="100" iosize="4" bandwidth="19200000" iops="4800000"/>
+                <perf readratio="50" iosize="128" bandwidth="42035000" iops="328400"/>
+                <perf readratio="50" iosize="64" bandwidth="36960000" iops="660000"/>
+                <perf readratio="50" iosize="32" bandwidth="36125000" iops="1128900"/>
+                <perf readratio="50" iosize="8" bandwidth="17342000" iops="2167700"/>
+                <perf readratio="50" iosize="4" bandwidth="10000000" iops="2500000"/>
+                <perf readratio="0" iosize="128" bandwidth="24320000" iops="190000"/>
+                <perf readratio="0" iosize="64" bandwidth="21280000" iops="380000"/>
+                <perf readratio="0" iosize="32" bandwidth="21120000" iops="660000"/>
+                <perf readratio="0" iosize="8" bandwidth="11200000" iops="1400000"/>
+                <perf readratio="0" iosize="4" bandwidth="6280000" iops="1570000"/>
+            </device>
+            <!-- ================================ SATA END ================================================== -->
+        </product>
+    </productfamily>
+</diskprofile>
